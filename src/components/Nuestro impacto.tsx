@@ -1,4 +1,3 @@
-import React from 'react';
 import { Users, Shield, TrendingUp, Award, Globe, Clock } from 'lucide-react';
 
 export default function TestimonialsSection() {

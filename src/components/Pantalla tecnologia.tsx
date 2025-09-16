@@ -1,22 +1,21 @@
-import React from 'react';
 
 export default function TechnologySection() {
   return (
     <section className="py-20 bg-gray-200">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          {/* Mockup del teléfono */}
+          {/*teléfono*/}
           <div className="flex justify-center lg:justify-start">
             <div className="relative">
-              {/* iPhone mockup */}
+              {/*iPhone*/}
               <div className="w-80 h-[640px] bg-black rounded-[3rem] p-3 shadow-2xl">
                 <div className="w-full h-full bg-white rounded-[2.5rem] overflow-hidden relative">
-                  {/* Notch */}
+                  {}
                   <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-36 h-7 bg-black rounded-b-2xl"></div>
                   
-                  {/* Contenido de la pantalla */}
+                  {/*Lo que va en la pantalla del celu*/}
                   <div className="p-6 pt-12 h-full flex flex-col">
-                    {/* Header de la app */}
+                    
                     <div className="flex items-center justify-between mb-8">
                       <div className="w-8 h-8 bg-gray-300 rounded-full"></div>
                       <h3 className="font-semibold text-lg text-gray-800">Resultados del escaneo</h3>
@@ -27,7 +26,7 @@ export default function TechnologySection() {
                       </div>
                     </div>
                     
-                    {/* Círculo de predicción principal */}
+                    
                     <div className="flex justify-center mb-8">
                       <div className="relative w-32 h-32">
                         <svg className="w-32 h-32 transform -rotate-90" viewBox="0 0 36 36">
@@ -55,7 +54,7 @@ export default function TechnologySection() {
                       <p className="text-gray-600 text-sm">Predicción de riesgo</p>
                     </div>
                     
-                    {/* Círculos pequeños */}
+                   
                     <div className="grid grid-cols-2 gap-4 mb-8">
                       <div className="bg-gray-50 p-4 rounded-xl text-center">
                         <div className="relative w-16 h-16 mx-auto mb-2">
@@ -106,12 +105,12 @@ export default function TechnologySection() {
                       </div>
                     </div>
                     
-                    {/* Botón de finalizar */}
+                    
                     <button className="bg-blue-600 text-white py-4 rounded-xl font-semibold text-lg mb-4">
                       Finalizar Escaneo
                     </button>
                     
-                    {/* Texto inferior */}
+                   
                     <p className="text-xs text-gray-500 text-center">
                       Para informarte sobre cuidados de la piel, consulta nuestra sección de <span className="font-semibold">Prevención</span>
                     </p>
@@ -121,7 +120,7 @@ export default function TechnologySection() {
             </div>
           </div>
 
-          {/* Contenido de texto */}
+          
           <div className="space-y-6">
             <h2 className="text-4xl font-bold text-black mb-8">
               Tecnología con IA, especializada en salud

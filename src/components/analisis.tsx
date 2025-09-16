@@ -1,4 +1,3 @@
-import React from 'react';
 import { Sparkles } from 'lucide-react';
 
 export default function AnalysisSection() {
@@ -6,7 +5,7 @@ export default function AnalysisSection() {
     <section className="py-20 bg-gray-200">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          {/* Contenido de texto */}
+          
           <div className="lg:col-span-2">
             <h2 className="text-4xl font-bold text-black mb-8 leading-tight flex items-center">
               Análisis Inteligente de Lunares con IA 
@@ -32,7 +31,7 @@ export default function AnalysisSection() {
               </p>
             </div>
             
-            {/* Imagen debajo del texto */}
+            
             <div className="flex justify-center mb-10">
               <div className="w-[40rem] h-[30rem] flex items-center justify-center">
                 <img 

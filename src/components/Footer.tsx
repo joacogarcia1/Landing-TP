@@ -1,13 +1,11 @@
-import React from 'react';
 import { Mail, Phone, MapPin } from 'lucide-react';
-import Logo from './Logo';
 
 export default function Footer() {
   return (
     <footer className="bg-slate-800 text-white py-16">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
-          {/* Logo y descripción */}
+          
           <div className="space-y-6">
             <div className="flex items-center">
               <img 
@@ -20,7 +18,7 @@ export default function Footer() {
               Tecnología de IA avanzada para la prevención de melanomas y el cuidado de la piel. Tu salud es nuestra prioridad.
             </p>
             
-            {/* Iconos sociales */}
+            
             <div className="flex space-x-4">
               <div className="w-8 h-8 bg-gray-700 rounded-full flex items-center justify-center hover:bg-gray-600 cursor-pointer transition-colors">
                 <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
@@ -45,7 +43,7 @@ export default function Footer() {
             </div>
           </div>
           
-          {/* Producto */}
+          
           <div>
             <h3 className="text-lg font-semibold mb-6">Producto</h3>
             <ul className="space-y-3 text-gray-300">
@@ -57,7 +55,7 @@ export default function Footer() {
             </ul>
           </div>
           
-          {/* Soporte */}
+          
           <div>
             <h3 className="text-lg font-semibold mb-6">Soporte</h3>
             <ul className="space-y-3 text-gray-300">
@@ -69,7 +67,7 @@ export default function Footer() {
             </ul>
           </div>
           
-          {/* Contacto */}
+          
           <div>
             <h3 className="text-lg font-semibold mb-6">Contacto</h3>
             <div className="space-y-4 text-gray-300">
@@ -89,7 +87,7 @@ export default function Footer() {
           </div>
         </div>
         
-        {/* Copyright */}
+        
         <div className="border-t border-gray-700 mt-12 pt-8">
           <p className="text-gray-400 text-sm">
             © 2025 DermaScan. Todos los derechos reservados

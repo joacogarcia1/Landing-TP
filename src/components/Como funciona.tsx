@@ -1,4 +1,3 @@
-import React from 'react';
 import { Camera, Brain, FileText, Shield } from 'lucide-react';
 
 export default function HowItWorksSection() {

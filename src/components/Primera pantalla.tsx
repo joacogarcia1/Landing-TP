@@ -1,29 +1,28 @@
-import React from 'react';
 import Logo from './Logo';
 
 export default function HeroSection() {
   return (
     <section className="bg-gray-200 py-32">
       <div className="max-w-4xl mx-auto px-6 text-center">
-        {/* Logo y título */}
+        
         <div className="mb-12">
           <div className="flex justify-center mb-8">
             <Logo className="h-40" />
           </div>
         </div>
         
-        {/* Subtítulo principal */}
+        
         <h2 className="text-3xl text-black mb-6 font-normal">
           Tu asistente con <span className="text-blue-600 font-bold">IA</span> para la prevención del Melanoma
         </h2>
         
-        {/* Descripción */}
+        
         <p className="text-gray-700 max-w-2xl mx-auto mb-16 leading-relaxed text-lg">
           La tecnología que cuida tu piel. Analiza el riesgo de tus lunares y 
           recibe consejos personalizados para una salud cutánea óptima.
         </p>
         
-        {/* Botones de descarga */}
+        
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
           <div className="bg-black text-white px-8 py-4 rounded-lg flex items-center space-x-4 hover:bg-gray-800 transition-colors cursor-pointer">
             <div className="w-8 h-8">
