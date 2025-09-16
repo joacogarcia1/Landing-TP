@@ -1,14 +1,14 @@
 import { Instagram } from 'lucide-react';
-import Logo from './Logo';
+import Logo2 from './logo2';
 
 export default function Header() {
   return (
-    <header className="bg-gray-200 py-4">
+    <header className="bg-gray-300 py-4">
       <div className="max-w-7xl mx-auto px-6">
         <nav className="flex justify-between items-center">
-          
+        
           <div className="flex items-center">
-            <Logo className="h-8" />
+            <Logo2 className="h-10" />
           </div>
           
           
